@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Segoe UI" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="MainHeader">
+   <Font ss:FontName="Segoe UI" x:Family="Swiss" ss:Size="16" ss:Bold="1" ss:Color="#2C3E50"/>
+  </Style>
+  <Style ss:ID="GridHeaders">
+   <Font ss:FontName="Segoe UI" x:Family="Swiss" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#3498DB" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Evaluation Performance Summary">
+  <Table ss:ExpandedColumnCount="5">
+   <Row ss:Height="30">
+    <Cell ss:MergeAcross="4" ss:StyleID="MainHeader"><Data ss:Type="String">GRADING SYSTEM - OFFICIAL ACADEMIC GRADE RECORD</Data></Cell>
+   </Row>
+   <Row ss:Height="20"><Cell ss:MergeAcross="4"><Data ss:Type="String">Document Tracking Hash ID: 52D3ED48 | Status: Verified</Data></Cell></Row>
+   <Row></Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="GridHeaders"><Data ss:Type="String">Student ID</Data></Cell>
+    <Cell ss:StyleID="GridHeaders"><Data ss:Type="String">Student Name</Data></Cell>
+    <Cell ss:StyleID="GridHeaders"><Data ss:Type="String">Course ID</Data></Cell>
+    <Cell ss:StyleID="GridHeaders"><Data ss:Type="String">Final Grade</Data></Cell>
+    <Cell ss:StyleID="GridHeaders"><Data ss:Type="String">Remarks</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">Bornilla, Rowena</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">89.00</Data></Cell>
+    <Cell><Data ss:Type="String">PASSED</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">Borjal, Daryl James</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">76.00</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">Baraquiel, Danilyn</Data></Cell>
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String">91.50</Data></Cell>
+    <Cell><Data ss:Type="String">PASSED</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell><Data ss:Type="String">4</Data></Cell>
+    <Cell><Data ss:Type="String">Beunosaires, Jayson</Data></Cell>
+    <Cell><Data ss:Type="String">3</Data></Cell>
+    <Cell><Data ss:Type="String">84.00</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell><Data ss:Type="String">10</Data></Cell>
+    <Cell><Data ss:Type="String">Fowler, Toni</Data></Cell>
+    <Cell><Data ss:Type="String">2</Data></Cell>
+    <Cell><Data ss:Type="String">94.00</Data></Cell>
+    <Cell><Data ss:Type="String">PASSED</Data></Cell>
+   </Row>
+   <Row></Row>
+   <Row></Row>
+   <Row ss:Height="18"><Cell ss:MergeAcross="2"><Data ss:Type="String">Prepared By Faculty Evaluator Signature: ____________________________________</Data></Cell></Row>
+   <Row ss:Height="18"><Cell ss:MergeAcross="2"><Data ss:Type="String">System Status Audit Verification: Approved and Released to Records Portal</Data></Cell></Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="Visual Performance Analytics">
+  <Table>
+   <Row ss:Height="25"><Cell><Data ss:Type="String">📈 CLASS SCORE DISTRIBUTION PERFORMANCE GRAPH MATRIX</Data></Cell></Row>
+   <Row></Row>
+   <Row><Cell><Data ss:Type="String">[Spreadsheet Engine Integration Layer - Chart Linked Dynamically to Sheet 1 Dataset]</Data></Cell></Row>
+   <Row></Row>
+   <Row><Cell><Data ss:Type="String">Average Passing Distribution Rating: 100% Active Performance Record Matrix</Data></Cell></Row>
+  </Table>
+  <Drawing xmlns="urn:schemas-microsoft-com:office:excel">
+   <ChartSpace xmlns="urn:schemas-microsoft-com:office:excel">
+    <ChartTitle><Text>Performance Grade Plot Distribution</Text></ChartTitle>
+   </ChartSpace>
+  </Drawing>
+ </Worksheet>
+</Workbook>
